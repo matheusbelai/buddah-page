@@ -1,0 +1,93 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor-primaria: #E9E9E9;
+    --azul-claro: #3c6998;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url(image/buddah.jpg) no-repeat;
+    background-size: cover;
+   
+}
+a, li{
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+}
+.header ul{
+    display: flex;
+    gap: 4rem;
+}
+header a:hover{
+    color: cadetblue;
+}
+header a{
+    color: var(--cor-primaria);
+    padding: .5rem 1rem;
+}
+header .ingressos button{
+    margin-right: 10px;
+    color: var(--cor-primaria);
+    background: cadetblue;
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    border-radius: 20px;
+}
+.hero{
+    display: relative;
+    width: 100%;
+    height: calc(100vh - 5rem);
+}
+.left h1{
+    font-size: 5rem;
+    color: var(--cor-primaria);
+    border-bottom: 1px solid cadetblue;
+    width: 70%;
+    line-height: 5rem;
+}
+.hero .left{
+    margin-left: 10px;
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    top: 30%;
+}
+.left p{
+    margin-left: 10px;
+    line-height: 1.5rem;
+    margin: 2.5rem 0rem;
+    color: var(--cor-primaria);
+}
+.left .temple button{
+    color: var(--cor-primaria);
+    background-color: cadetblue;
+    border: none;
+    padding: 1rem 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    border-radius: 20px;
+}
+header .ingressos button:hover{
+    cursor: pointer;
+}
+.left .temple button:hover{
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
